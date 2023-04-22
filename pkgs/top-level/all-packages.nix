@@ -40052,4 +40052,6 @@ with pkgs;
   zf = callPackage ../tools/misc/zf { };
 
   isolate = callPackage ../tools/security/isolate { };
+
+  tier = callPackage ../tools/misc/tier { };
 }

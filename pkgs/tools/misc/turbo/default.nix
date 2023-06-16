@@ -14,6 +14,7 @@
 , go
 , testers
 , turbo
+, zlib
 }:
 let
   version = "1.10.3";
@@ -37,6 +38,10 @@ let
       protobuf
       protoc-gen-go
       protoc-gen-go-grpc
+    ];
+
+    buildInputs = [
+      zlib
     ];
 
     preBuild = ''

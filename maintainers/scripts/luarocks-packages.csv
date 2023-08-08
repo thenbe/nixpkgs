@@ -50,6 +50,7 @@ lua-resty-jwt,,,,,,
 lua-resty-openidc,,,,,,
 lua-resty-openssl,,,,,,
 lua-resty-session,,,,,,
+lua-shepi,,,,,,
 lua-subprocess,https://github.com/0x0ade/lua-subprocess,,,,5.1,scoder12
 lua-term,,,,,,
 lua-toml,,,,,,
